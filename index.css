@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bitter:wght@200&display=swap');
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     background-image: url("workout image.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:cover;
+     
+  }
+  .title{
+    color:whitesmoke;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  }
+  .App{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 60px ;
+    margin-right:70px ;
+    margin-bottom: 50px;
+    background-color:rgb(0, 0, 0);
+    overflow: hidden;
+    border: 5px solid goldenrod;
+    padding: 10px;
+    border-radius: 25px;
+    opacity: 80%;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .todo {
+    cursor: pointer;
+    font-size:20px;
+   background-color:whitesmoke;
+   padding: 3px;
+    margin: 2px 80px;
+    color: black;
+
+    
+  }
+  .cleartask{
+    font-size: 20px;
+    padding: 6px 6px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px;
+    color: antiquewhite;
+    border-color: azure;
+    background-color: black
+    
+  }
+  .strike {
+    text-decoration: line-through;
+    color:rgb(250, 44, 44) ;
+    font-weight: bold;
+  }
+  .submit{
+    font-size: large;
+    padding: 7px 10px;
+    margin-left: 5px;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    font-weight: 400px;
+    border-radius:61px 40px 40px 61px;
+    border-color: azure;
+    
+  }
+  .input-1{
+    font-size: large;
+  }
+  hr{
+    opacity: 49%;
+    /* color: #cc1717; */
+    /* flood-color: blue; */
+    font-weight: bold;
+    border-bottom-width: thick;
+    background-color: white;
+  }
+  header{
+    color: whitesmoke;
+    font-family: 'Bitter', serif;
+  }
+  
+  /*Hover*/
+  .todo:hover{
+   opacity: 80%;
+    
+  }
+  .cleartask:hover{
+  
+    color: black;
+    border-color: goldenrod;
+    background-color:antiquewhite;
+    
+  }
+  .submit:hover{
+
+    color: rgb(0, 0, 0);
+    background-color:whitesmoke;
+ 
+    border-color:goldenrod;
+    
+  }
+  @media screen and (max-width:391px),(max-height:800px) {
+    .todo{
+      padding: 3px;
+      margin: 2px 30px;
+    }
+  }
+ 
+ 
